@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../public/css/signup-login.css"
+    />
+  </head>
+  <body>
+    <div id="progress">
+      <h1>REGISTER</h1>
+      <h2><%= message %></h2>
+    </div>
+
+    <div class="center">
+      <div id="register">
+        <i id="progressButton" class="ion-android-arrow-forward next"></i>
+
+        <div id="inputContainer">
+          <input id="inputField" required autofocus />
+          <label id="inputLabel"></label>
+          <div id="inputProgress"></div>
+        </div>
+      </div>
+    </div>
+    <form action="/register" method="POST" id="myForm">
+      <input type="hidden" name="email" />
+      <input type="hidden" name="password" />
+      <input type="hidden" name="firstName" />
+      <input type="hidden" name="lastName" />
+      <input type="hidden" name="contact" />
+      <input type="hidden" name="type" />
+      <submit type="hidden"></submit>
+    </form>
+    <script type="text/javascript" src="../public/js/signup.js"></script>
+    <script type="text/javascript" src="../public/js/signup-signin.js"></script>
+  </body>
+</html>

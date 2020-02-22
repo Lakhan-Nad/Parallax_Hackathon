@@ -1,0 +1,40 @@
+.col-sm-6 {
+  padding: 10px;
+}
+.pageMovement {
+  margin-top: 25px;
+}
+.answer {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+  font-weight: bold;
+}
+.container {
+  padding: 20px;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.progress {
+  margin-top: 25px;
+}
+#finishQuiz {
+  margin-top: 25px;
+}
+.output {
+  font-size: 20px;
+}
+.glyphicon-ok-circle {
+  color: #00ff64;
+}
+.glyphicon-remove-circle {
+  color: #ff0004;
+}
+.selAnswer {
+  background: #4e9267;
+}
